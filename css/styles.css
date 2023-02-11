@@ -36,8 +36,12 @@ header {
   color: var(--logo-part-color);
 }
 
-.site-nav {
+.site-nav .link {
   color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+color: var(--accent-color);
 }
 
 .address-nav {
@@ -52,6 +56,16 @@ header {
 
 .hero>.block-title {
   color: var(--hero-text-color);
+}
+
+.push {
+  background-color: var(--logo-part-color);
+  color: var(--hero-text-color);
+}
+
+.push:hover,
+.push:focus {
+  color: var(--main-text-color);
 }
 
 /* main */
