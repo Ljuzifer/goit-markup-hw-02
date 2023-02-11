@@ -86,3 +86,16 @@ footer {
   color: var(--footer-logo-part);
 }
 
+/* Portfolio's buttons */
+
+.btn-push {
+  background-color: var(--footer-logo-part);
+  color: var(--logo-part-color);
+}
+
+.btn-push:hover,
+.btn-push:focus {
+  background-color: var(--accent-color);
+  color: var(--hero-text-color);
+  cursor: pointer;
+}
