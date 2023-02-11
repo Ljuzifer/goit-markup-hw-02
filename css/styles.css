@@ -54,7 +54,7 @@ color: var(--accent-color);
   background-color: var(--secondary-background-color);
 }
 
-.hero>.block-title {
+.hero .block-title {
   color: var(--hero-text-color);
 }
 
