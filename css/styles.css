@@ -16,6 +16,11 @@
 body {
   background-color: var(--primary-background-color);
   color: var(--main-text-color);
+
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .list {
@@ -30,6 +35,14 @@ header {
 
 .logo {
   color: var(--title-text-color);
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration-line: none;
 }
 
 .logo-web {
@@ -38,14 +51,29 @@ header {
 
 .site-nav .link {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration-line: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
 color: var(--accent-color);
 }
 
-.address-nav {
+.ping {
   color: var(--main-text-color);
+
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration-line: none;
+}
+
+.address-nav .ping:hover,
+.address-nav .ping:focus {
+  color: var(--accent-color);
 }
 
 /* main hero */
@@ -54,13 +82,26 @@ color: var(--accent-color);
   background-color: var(--secondary-background-color);
 }
 
-.hero .block-title {
+.hero>.block-title {
   color: var(--hero-text-color);
+
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
 }
 
 .push {
   background-color: var(--logo-part-color);
   color: var(--hero-text-color);
+  cursor: pointer;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
 }
 
 .push:hover,
@@ -73,6 +114,20 @@ color: var(--accent-color);
 .block-title,
 .block-item {
   color: var(--title-text-color);
+}
+
+.block-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize
+}
+
+.block-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 /* footer */
