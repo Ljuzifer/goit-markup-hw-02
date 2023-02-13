@@ -29,10 +29,6 @@ body {
 
 /* header */
 
-header {
-  background-color: var(--header-background-color);
-}
-
 .logo {
   color: var(--title-text-color);
 
@@ -111,6 +107,10 @@ color: var(--accent-color);
 
 /* main */
 
+.tint {
+  background-color: var(--header-background-color);
+}
+
 .block-title,
 .block-item {
   color: var(--title-text-color);
@@ -146,11 +146,18 @@ footer {
 .btn-push {
   background-color: var(--footer-logo-part);
   color: var(--logo-part-color);
+  cursor: pointer;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
 }
 
 .btn-push:hover,
 .btn-push:focus {
   background-color: var(--accent-color);
   color: var(--hero-text-color);
-  cursor: pointer;
 }
